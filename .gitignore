@@ -1,22 +1,17 @@
-# Compiled class file
-*.class
+# Maven output
+/target
 
-# Log file
-*.log
+# Eclipse
+.classpath
+.project
+.settings
+/bin
 
-# BlueJ files
-*.ctxt
+# Spring Roo
+log.roo
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+# HSQLDB
+coding-task-checker.log
+coding-task-checker.lck
+coding-task-checker.properties
+coding-task-checker.script

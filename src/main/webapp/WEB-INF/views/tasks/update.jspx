@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_ru_lonedeveloper_flash_codingtask_domain_Task" modelAttribute="task" path="/tasks" versionField="Version" z="9PBvXsTUnbImzLX+Nq00DsPP0bc=">
+        <field:input field="name" id="c_ru_lonedeveloper_flash_codingtask_domain_Task_name" max="15" min="3" required="true" z="vxyb3qu3ZSWBabIfqUM59NmJ2Cw="/>
+        <field:input decimalMin="1" field="timeLimit" id="c_ru_lonedeveloper_flash_codingtask_domain_Task_timeLimit" required="true" z="XrgyjvNtA4awbwaLgGFtKz3oe1o="/>
+    </form:update>
+</div>

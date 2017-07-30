@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_ru_lonedeveloper_flash_codingtask_domain_Task" object="${task}" path="/tasks" z="zKa/Sv/+2BGfDZCc0M2ecUjp3ow=">
+        <field:display field="name" id="s_ru_lonedeveloper_flash_codingtask_domain_Task_name" object="${task}" z="zVSqcCYMUGNc330RVPkBwvrOBIs="/>
+        <field:display field="timeLimit" id="s_ru_lonedeveloper_flash_codingtask_domain_Task_timeLimit" object="${task}" z="fnzmH8b7CAOlT38DYeofJv2Mphc="/>
+    </page:show>
+</div>

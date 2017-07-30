@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show delete="false" id="ps_ru_lonedeveloper_flash_codingtask_domain_Solution" object="${solution}" path="/solutions" update="false" z="SBVvuXdwzrzt6xhPKUul4xtfKJg=">
+        <field:display field="task" id="s_ru_lonedeveloper_flash_codingtask_domain_Solution_task" object="${solution}" z="cZswY4R6gB5uRBLQIzbkVa5mj30="/>
+        <field:display field="ip" id="s_ru_lonedeveloper_flash_codingtask_domain_Solution_ip" object="${solution}" z="vy2lnIXMUV/rYEHCff471QMgqVs="/>
+        <field:display field="author" id="s_ru_lonedeveloper_flash_codingtask_domain_Solution_author" object="${solution}" z="WyhYGSjaYFFo/gDU40UM7vIUBFA="/>
+        <field:display date="true" dateTimePattern="${solution_createdat_date_format}" field="createdAt" id="s_ru_lonedeveloper_flash_codingtask_domain_Solution_createdAt" object="${solution}" z="NWHtGMtu59TlZ3Oa94qGATnLHFE="/>
+        <field:display field="results" id="s_ru_lonedeveloper_flash_codingtask_domain_Solution_results" object="${solution}" z="j8W4ElABY3XDCxfdzP9lbOzm/v4="/>
+        <field:display field="code" id="s_ru_lonedeveloper_flash_codingtask_domain_Solution_code" object="${solution}" z="03JJF4qdVvpVqXlfsSkgeIb5QCs="/>
+        <field:display field="successful" id="s_ru_lonedeveloper_flash_codingtask_domain_Solution_successful" object="${solution}" render="false" z="user-managed"/>
+    </page:show>
+</div>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_ru_lonedeveloper_flash_codingtask_domain_Solution" items="${solutions}" z="l95+WCq+ZUJQgRAIqaJp2sYnnqc=">
+        <table:table data="${solutions}" delete="false" id="l_ru_lonedeveloper_flash_codingtask_domain_Solution" path="/solutions" update="false" z="rAdCQfKp+PB69aI+Lv0Kvz3sQmk=">
+            <table:column id="c_ru_lonedeveloper_flash_codingtask_domain_Solution_task" property="task" z="+H3P39BVADQD0OOnQmXwBNt8T14="/>
+            <table:column id="c_ru_lonedeveloper_flash_codingtask_domain_Solution_ip" property="ip" sort="true" z="user-managed"/>
+            <table:column id="c_ru_lonedeveloper_flash_codingtask_domain_Solution_author" property="author" sort="true" z="user-managed"/>
+            <table:column id="c_ru_lonedeveloper_flash_codingtask_domain_Solution_code" property="code" render="false" z="user-managed"/>
+            <table:column date="true" dateTimePattern="${solution_createdat_date_format}" id="c_ru_lonedeveloper_flash_codingtask_domain_Solution_createdAt" property="createdAt" sort="true" z="user-managed"/>
+            <table:column id="c_ru_lonedeveloper_flash_codingtask_domain_Solution_successful" property="successful" render="false" z="user-managed"/>
+            <table:column id="c_ru_lonedeveloper_flash_codingtask_domain_Solution_results" property="results" z="user-managed"/>
+        </table:table>
+    </page:list>
+</div>

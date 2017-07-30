@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_ru_lonedeveloper_flash_codingtask_domain_Solution" modelAttribute="solution" path="/solutions" render="${empty dependencies}" z="jpFlQ9EQd1Ii2rKqSkONX3cs/2A=">
+        <field:select field="task" id="c_ru_lonedeveloper_flash_codingtask_domain_Solution_task" itemValue="id" items="${tasks}" path="/tasks" z="user-managed"/>
+        <field:input field="author" id="c_ru_lonedeveloper_flash_codingtask_domain_Solution_author" max="30" min="1" required="true" z="YDmAv7Y9/rO3DUUW7695NS/3JqI="/>
+        <field:textarea field="code" id="c_ru_lonedeveloper_flash_codingtask_domain_Solution_code" z="user-managed"/>
+        <field:input field="ip" id="c_ru_lonedeveloper_flash_codingtask_domain_Solution_ip" render="false" z="user-managed"/>
+        <field:datetime dateTimePattern="${solution_createdat_date_format}" field="createdAt" id="c_ru_lonedeveloper_flash_codingtask_domain_Solution_createdAt" render="false" z="user-managed"/>
+        <field:checkbox field="successful" id="c_ru_lonedeveloper_flash_codingtask_domain_Solution_successful" render="false" z="user-managed"/>
+        <field:input field="results" id="c_ru_lonedeveloper_flash_codingtask_domain_Solution_results" render="false" z="user-managed"/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_ru_lonedeveloper_flash_codingtask_domain_Solution" render="${not empty dependencies}" z="vDILasQHBZakVdTKavwqgsJ+dOs="/>
+</div>

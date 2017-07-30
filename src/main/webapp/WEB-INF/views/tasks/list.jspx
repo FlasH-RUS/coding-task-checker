@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_ru_lonedeveloper_flash_codingtask_domain_Task" items="${tasks}" z="q5diO8yJQ51Y+wwUZw4U7t/OdW8=">
+        <table:table data="${tasks}" id="l_ru_lonedeveloper_flash_codingtask_domain_Task" path="/tasks" z="dBJTA5au76s6nWe7/0Cu0qidbWA=">
+            <table:column id="c_ru_lonedeveloper_flash_codingtask_domain_Task_name" property="name" z="tqv6GX+09+xwZH+cL6x5GOWHk/0="/>
+            <table:column id="c_ru_lonedeveloper_flash_codingtask_domain_Task_timeLimit" property="timeLimit" z="DWxMQik9Ket7xh6Gs+/5YHMKOUw="/>
+        </table:table>
+    </page:list>
+</div>
