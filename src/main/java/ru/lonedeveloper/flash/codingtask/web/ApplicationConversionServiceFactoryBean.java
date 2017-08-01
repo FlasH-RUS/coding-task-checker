@@ -13,18 +13,19 @@ import ru.lonedeveloper.flash.codingtask.domain.Task;
 @RooConversionService
 public class ApplicationConversionServiceFactoryBean extends FormattingConversionServiceFactoryBean {
 
-	@Override
-	protected void installFormatters(final FormatterRegistry registry) {
-		super.installFormatters(registry);
-		// Register application converters and formatters
-	}
+    @Override
+    protected void installFormatters(final FormatterRegistry registry) {
+        super.installFormatters(registry);
+        // Register application converters and formatters
+    }
 
-	public Converter<Task, String> getTaskToStringConverter() {
-		return new org.springframework.core.convert.converter.Converter<ru.lonedeveloper.flash.codingtask.domain.Task, java.lang.String>() {
-			@Override
-			public String convert(final Task task) {
-				return task.getName();
-			}
-		};
-	}
+    public Converter<Task, String> getTaskToStringConverter() {
+        return new org.springframework.core.convert.converter.Converter<ru.lonedeveloper.flash.codingtask.domain.Task, java.lang.String>() {
+
+            @Override
+            public String convert(final Task task) {
+                return task.getName();
+            }
+        };
+    }
 }

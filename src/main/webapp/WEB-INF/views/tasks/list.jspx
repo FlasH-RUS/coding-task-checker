@@ -6,6 +6,7 @@
         <table:table data="${tasks}" id="l_ru_lonedeveloper_flash_codingtask_domain_Task" path="/tasks" z="dBJTA5au76s6nWe7/0Cu0qidbWA=">
             <table:column id="c_ru_lonedeveloper_flash_codingtask_domain_Task_name" property="name" z="tqv6GX+09+xwZH+cL6x5GOWHk/0="/>
             <table:column id="c_ru_lonedeveloper_flash_codingtask_domain_Task_timeLimit" property="timeLimit" z="DWxMQik9Ket7xh6Gs+/5YHMKOUw="/>
+            <table:column id="c_ru_lonedeveloper_flash_codingtask_domain_Task_validationServiceClassName" property="validationServiceClassName" z="0kEbKSzCrG22drnOlSJgFr1dXcY="/>
         </table:table>
     </page:list>
 </div>

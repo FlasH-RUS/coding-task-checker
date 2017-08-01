@@ -5,5 +5,6 @@
     <page:show id="ps_ru_lonedeveloper_flash_codingtask_domain_Task" object="${task}" path="/tasks" z="zKa/Sv/+2BGfDZCc0M2ecUjp3ow=">
         <field:display field="name" id="s_ru_lonedeveloper_flash_codingtask_domain_Task_name" object="${task}" z="zVSqcCYMUGNc330RVPkBwvrOBIs="/>
         <field:display field="timeLimit" id="s_ru_lonedeveloper_flash_codingtask_domain_Task_timeLimit" object="${task}" z="fnzmH8b7CAOlT38DYeofJv2Mphc="/>
+        <field:display field="validationServiceClassName" id="s_ru_lonedeveloper_flash_codingtask_domain_Task_validationServiceClassName" object="${task}" z="qSBySzNq+KVPOEHqwZmlMhXLF88="/>
     </page:show>
 </div>

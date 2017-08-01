@@ -5,5 +5,6 @@
     <form:update id="fu_ru_lonedeveloper_flash_codingtask_domain_Task" modelAttribute="task" path="/tasks" versionField="Version" z="9PBvXsTUnbImzLX+Nq00DsPP0bc=">
         <field:input field="name" id="c_ru_lonedeveloper_flash_codingtask_domain_Task_name" max="15" min="3" required="true" z="vxyb3qu3ZSWBabIfqUM59NmJ2Cw="/>
         <field:input decimalMin="1" field="timeLimit" id="c_ru_lonedeveloper_flash_codingtask_domain_Task_timeLimit" required="true" z="XrgyjvNtA4awbwaLgGFtKz3oe1o="/>
+        <field:input field="validationServiceClassName" id="c_ru_lonedeveloper_flash_codingtask_domain_Task_validationServiceClassName" z="sXBpkahyqJ3jfhnK8UUgf0IkBa0="/>
     </form:update>
 </div>

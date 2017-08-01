@@ -23,4 +23,12 @@ privileged aspect Task_Roo_JavaBean {
         this.timeLimit = timeLimit;
     }
     
+    public String Task.getValidationServiceClassName() {
+        return this.validationServiceClassName;
+    }
+    
+    public void Task.setValidationServiceClassName(String validationServiceClassName) {
+        this.validationServiceClassName = validationServiceClassName;
+    }
+    
 }

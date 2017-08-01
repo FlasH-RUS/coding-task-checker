@@ -13,15 +13,20 @@ import org.springframework.roo.addon.tostring.RooToString;
 @RooJpaActiveRecord
 public class Task {
 
-	/**
-	 */
-	@NotNull
-	@Size(min = 3, max = 15)
-	private String name;
+    /**
+     */
+    @NotNull
+    @Size(min = 3, max = 50)
+    private String name;
 
-	/**
-	 */
-	@NotNull
-	@DecimalMin("1")
-	private long timeLimit;
+    /**
+     */
+    @NotNull
+    @DecimalMin("1")
+    private long timeLimit;
+
+    /**
+     */
+    @NotNull
+    private String validationServiceClassName;
 }
